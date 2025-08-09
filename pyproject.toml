@@ -1,0 +1,16 @@
+[project]
+name = "rssc-ai-labs"
+version = "1.0.0"
+description = "explore genai using langgraph and gradio"
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "uv",
+    "pip",
+    "ipykernel",
+    "gradio",
+    "langchain",
+    "langgraph",
+    "langchain_openai",
+    "langmem",
+]
